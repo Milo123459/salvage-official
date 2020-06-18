@@ -4,7 +4,7 @@ import User from "./components/User";
 function App() {
   return (
     <div className="App">
-      <User />
+      <User name = "Salvage_Dev" language = "JavaScript" jobTitle = "React.JS"/>
     </div>
   );
 }
