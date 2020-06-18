@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
     <Router>
-    <Route path = "/todo" component = {Todo}></Route>
+    <Route path = "/todo" render = {Todo}></Route>
     </Router>
       <h1>Users</h1>
       {userComponents}
