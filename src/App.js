@@ -2,6 +2,13 @@ import React from "react";
 import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
+const users = [
+  {
+    name: "Salvage_Dev",
+    language: "JavaScript",
+    jobTitle: "React.JS dev"
+  }
+]
 function App() {
   return (
     <div className="App">
