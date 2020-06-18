@@ -12,7 +12,9 @@ const users = [
 function App() {
   return (
     <div className="App">
-      <User name = "Salvage_Dev" language = "JavaScript" jobTitle = "React.JS"/>
+      {
+        users.map((user, i) => )
+      }
       <Post title = "Awesome update" content = "I love NodeJS!"/>
     </div>
   );
