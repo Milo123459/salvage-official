@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <h1>Users</h1>
       {userComponents}
+      <h1>Posts</h1>
       {postComponents}
     </div>
   );
