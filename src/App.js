@@ -3,7 +3,7 @@ import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
 import BrowseTime from "./components/BrowseTime";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router,  } from "react-router-dom";
 import Todo from "./components/Todo";
 const users = [
   {
@@ -23,9 +23,11 @@ const postComponents = posts.map((post, key) => <Post key = {key} title = {post.
 const userComponents = users.map((user, key) => <User key = {key} name = {user.name} language = {user.language} jobTitle = {user.jobTitle}/>)
 function App() {
   return (
+    <Router>
     <div className="App">
       {postComponents}
     </div>
+    </Router>
   );
 }
 export default App;
