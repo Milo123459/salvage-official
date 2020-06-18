@@ -16,7 +16,7 @@ const posts = [
   }
 ]
 //Components
-const postComponents = posts.map((post) => )
+const postComponents = posts.map((post) => <Post title = {post.title} content = {post.content}/>)
 function App() {
   return (
     <div className="App">
