@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
+import BrowseTime from "./components/BrowseTime"
 const users = [
   {
     name: "Salvage_Dev",
