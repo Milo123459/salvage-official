@@ -1,9 +1,20 @@
 import React from "react";
-export default function Post(props){
-    return (
-        <div>
-            <h1>{props.title}</h1>
-            <p>{props.content}</p>
-        </div>
-    )
+export default class User extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            name: props.name,
+            language: props.language,
+            jobTitle: props.jobTitle
+        }
+    }
+    render(){
+        return (
+            <div>
+                <h1>Name: {this.state.name}</h1>
+                <h2>Language: {this.state.language}</h2>
+                <p>Job Title: {this.state.jobTitle}</p>
+            </div>
+        )
+    }
 }
