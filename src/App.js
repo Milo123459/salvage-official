@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {
-        users.map((user, i) => )
+        users.map((user, i) => <User name = {user.nmae} language = {user.language} jobTitle = {user.jobTitle}/>)
       }
       <Post title = "Awesome update" content = "I love NodeJS!"/>
     </div>
