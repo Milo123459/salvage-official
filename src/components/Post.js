@@ -11,7 +11,7 @@ export default class User extends React.Component {
         return (
             <div>
                 <h1>{this.state.name}</h1>
-                <p>Job Title: {this.state.jobTitle}</p>
+                <p>{this.state.content}</p>
             </div>
         )
     }
