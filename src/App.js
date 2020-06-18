@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
-import BrowseTime from "./components/BrowseTime"
+import BrowseTime from "./components/BrowseTime";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 const users = [
   {
     name: "Salvage_Dev",
