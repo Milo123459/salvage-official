@@ -22,7 +22,7 @@ const postComponents = posts.map((post, key) => <Post key = {key} title = {post.
 const userComponents = users.map((user, key) => <User key = {key} name = {user.name} language = {user.language} jobTitle = {user.jobTitle}/>)
 function App() {
   return (
-    <Route path = "/todo"></Route>
+    <Route path = "/todo" component = {Todo}></Route>
     <div className="App">
       <h1>Users</h1>
       {userComponents}
