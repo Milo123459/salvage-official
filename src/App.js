@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      {postComponents}
+      <h1>Hey there! Welcome to my site..</h1>
     </div>
     </Router>
   );
