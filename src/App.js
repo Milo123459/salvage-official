@@ -27,7 +27,6 @@ function App() {
     <div className="App">
       <h1>Hey there! Welcome to my site.</h1>
       Click me to go to the <a href = "/todo">todo</a> page
-      <Link to = {`/todo`}/>
     </div>
     <Route path = "/todo" component = {Todo}/>
     </Router>
