@@ -28,7 +28,7 @@ function App() {
       <h1>Hey there! Welcome to my site.</h1>
       Click me to go to the <a href = "/todo">todo</a> page
       <footer>
-        {BrowseTime}
+        <BrowseTime />
       </footer>
     </div>
     <Route path = "/todo" component = {Todo}/>
