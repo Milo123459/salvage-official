@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "go": "git-go New update && exit 0"
+    "go": "git-go New update"
   },
   "eslintConfig": {
     "extends": "react-app"
