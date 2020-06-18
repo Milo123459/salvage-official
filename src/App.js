@@ -9,6 +9,11 @@ const users = [
     jobTitle: "React.JS dev"
   }
 ]
+const posts = [
+  {
+    
+  }
+]
 function App() {
   return (
     <div className="App">
