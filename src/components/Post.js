@@ -10,8 +10,7 @@ export default class User extends React.Component {
     render(){
         return (
             <div>
-                <h1>Name: {this.state.name}</h1>
-                <h2>Language: {this.state.language}</h2>
+                <h1>{this.state.name}</h1>
                 <p>Job Title: {this.state.jobTitle}</p>
             </div>
         )
