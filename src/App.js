@@ -28,6 +28,7 @@ function App() {
       <h1>Hey there! Welcome to my site.</h1>
       <Link to = {`/todo`} />
     </div>
+    <Route></Route>
     </Router>
   );
 }
