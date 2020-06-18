@@ -11,7 +11,8 @@ const users = [
 ]
 const posts = [
   {
-    
+    title: "My first programming language",
+    content: "My favourite web framework is React.JS"
   }
 ]
 function App() {
@@ -19,6 +20,9 @@ function App() {
     <div className="App">
       {
         users.map((user, i) => <User name = {user.nmae} language = {user.language} jobTitle = {user.jobTitle}/>)
+      }
+      {
+        
       }
     </div>
   );
