@@ -3,7 +3,7 @@ import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
 import BrowseTime from "./components/BrowseTime";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Todo from "./components/Todo";
 const users = [
   {
@@ -24,8 +24,7 @@ const userComponents = users.map((user, key) => <User key = {key} name = {user.n
 function App() {
   return (
     <div className="App">
-      
-    <Route path = "/todo" component = {Todo}></Route>
+      <Route path = "/todo" component = {Todo}></Route>
       <h1>Users</h1>
       {userComponents}
       <h1>Posts</h1>
