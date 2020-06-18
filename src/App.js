@@ -6,6 +6,7 @@ function App() {
     <Router>
     <div className="App">
       <h1> Welcome to my site! </h1>
+      <Button> Hello test </Button>
     </div>
     </Router>
   );
