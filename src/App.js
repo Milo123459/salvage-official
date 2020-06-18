@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
