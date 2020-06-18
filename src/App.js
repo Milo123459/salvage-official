@@ -17,7 +17,7 @@ const posts = [
 ]
 //Components
 const postComponents = posts.map((post, key) => <Post key = {key} title = {post.title} content = {post.content}/>)
-const userComponents = users.map((user, key) => <User key = {key} name = {user.nmae} language = {user.language} jobTitle = {user.jobTitle}/>)
+const userComponents = users.map((user, key) => <User key = {key} name = {user.name} language = {user.language} jobTitle = {user.jobTitle}/>)
 function App() {
   return (
     <div className="App">
