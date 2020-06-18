@@ -15,6 +15,8 @@ const posts = [
     content: "My favourite web framework is React.JS"
   }
 ]
+//Components
+const postComponents = posts.map((post) => )
 function App() {
   return (
     <div className="App">
@@ -22,7 +24,7 @@ function App() {
         users.map((user, i) => <User name = {user.nmae} language = {user.language} jobTitle = {user.jobTitle}/>)
       }
       {
-        
+
       }
     </div>
   );
