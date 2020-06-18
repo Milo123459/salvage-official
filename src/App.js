@@ -24,11 +24,7 @@ const userComponents = users.map((user, key) => <User key = {key} name = {user.n
 function App() {
   return (
     <div className="App">
-
-
-      <footer>
-        <BrowseTime />
-      </footer>
+      {postComponents}
     </div>
   );
 }
