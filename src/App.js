@@ -3,7 +3,7 @@ import "./App.css";
 import User from "./components/User";
 import Post from "./components/Post";
 import BrowseTime from "./components/BrowseTime";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Todo from "./components/Todo";
 const users = [
   {
@@ -27,6 +27,9 @@ function App() {
     <div className="App">
       <h1>Hey there! Welcome to my site.</h1>
       Click me to go to the <a href = "/todo">todo</a> page
+      <footer>
+        {BrowseTime}
+      </footer>
     </div>
     <Route path = "/todo" component = {Todo}/>
     </Router>
