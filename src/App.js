@@ -26,6 +26,9 @@ function App() {
       {userComponents}
       <h1>Posts</h1>
       {postComponents}
+      <footer>
+        <BrowseTime />
+      </footer>
     </div>
   );
 }
