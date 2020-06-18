@@ -3,7 +3,9 @@ export default class User extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            
+            name: props.name,
+            language: props.language,
+            jobTitle: props.jobTitle
         }
     }
     render(){
