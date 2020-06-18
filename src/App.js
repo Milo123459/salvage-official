@@ -28,7 +28,7 @@ function App() {
       <h1>Hey there! Welcome to my site.</h1>
       <Link to = {`/todo`} />
     </div>
-    <Route path = "/todo"/>
+    <Route path = "/todo" component = {Todo}/>
     </Router>
   );
 }
