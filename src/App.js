@@ -24,9 +24,6 @@ const userComponents = users.map((user, key) => <User key = {key} name = {user.n
 function App() {
   return (
     <div className="App">
-    <Router>
-    <Route path = "/todo" render = {Todo}></Route>
-    </Router>
       <h1>Users</h1>
       {userComponents}
       <h1>Posts</h1>
