@@ -2,7 +2,6 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import User from "./components/User";
 import Post from "./components/Post";
-import BrowseTime from "./components/BrowseTime";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Todo from "./components/Todo";
 const users = [
